@@ -1,0 +1,36 @@
+.home-page {
+}
+.hero-bar {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+
+    background-color: #f5f0ea;
+    background-image: url('./../img/hero1.webp');
+    background-repeat: no-repeat;
+    background-position: 95% bottom;
+    background-size: 40%;
+
+    display: flex;
+    align-items: center;
+
+    padding: 5em 0;
+}
+.schedule-bar {
+    width: 100%;
+    height: 250px;
+
+    background-color: #1a284d;
+    background-image: url('./../svg/cta_bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.schedule-content {
+    color: white;
+}
+.schedule-control {
+    text-transform: capitalize;
+}
+.tech-bar {
+    padding: 5em 0;
+}
